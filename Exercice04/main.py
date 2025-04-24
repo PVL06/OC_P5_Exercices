@@ -15,8 +15,8 @@ class OtherClass:
         print(f"Nom complet : {self.first_name} {self.name}")
 
 
-class1 = MyClass("simon marchal")
+class1 = MyClass("John Doo")
 class1.display_name()
 
-class2 = OtherClass("simon", "marchal")
+class2 = OtherClass("John", "Doo")
 class2.display_name()
